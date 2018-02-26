@@ -7,7 +7,7 @@ int main(void) {
   srand(time(NULL));
   char chr;
 
-  for (int i = 0; i < 2000; i++) {
+  for (int i = 0; i < 10000; i++) {
     chr = pickSlash();
     printf("%c", chr);
   }
